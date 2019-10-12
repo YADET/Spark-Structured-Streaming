@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/test/resources/config.conf,/opt/testspark/StreamTest2Spark/target/scala-2.12/test-classes/config.conf)[0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/test/resources/data,/opt/testspark/StreamTest2Spark/target/scala-2.12/test-classes/data)[0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/test/resources/data/JsonData,/opt/testspark/StreamTest2Spark/target/scala-2.12/test-classes/data/JsonData)[0m

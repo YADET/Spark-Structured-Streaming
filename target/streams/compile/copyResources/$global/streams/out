@@ -1,5 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/main/resources/config.conf,/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/config.conf)[0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/main/resources/data,/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/data)[0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/main/resources/log4j.properties,/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/log4j.properties)[0m
-[0m[[0mdebug[0m] [0m	(/opt/testspark/StreamTest2Spark/src/main/resources/data/nested.json,/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/data/nested.json)[0m
