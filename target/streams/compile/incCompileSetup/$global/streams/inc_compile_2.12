@@ -1,0 +1,641 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes
+compile options:
+3 items
+0 -> -Xplugin:/home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.0.jar
+1 -> -P:scoverage:dataDir:/opt/testspark/StreamTest2Spark/target/scala-2.12/scoverage-data
+2 -> -Yrangepos
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+16 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main$delayedInit$body.class
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main.class
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/dao/JdbcSink.class
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/kafka/KafkaSource$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/kafka/KafkaSource.class
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/schema/NestedSchema$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/schema/NestedSchema.class
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/shutdown/GracefulShutdown$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/shutdown/GracefulShutdown.class
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/SessionStarter.class
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StreamFactory$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StreamFactory.class
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StructutedStreaming.class
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/utils/Utils$.class
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /opt/testspark/StreamTest2Spark/target/scala-2.12/classes/utils/Utils.class
+binary dependencies:
+44 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /home/ali/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /usr/java/jdk1.8.0_201/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+9 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+2 items
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> /opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala
+inheritance external dependencies:
+0 items
+class names:
+16 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Main
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Main$
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Main$delayedInit$body
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> dao.JdbcSink
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> kafka.KafkaSource
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> kafka.KafkaSource$
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> schema.NestedSchema
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> schema.NestedSchema$
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> shutdown.GracefulShutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> shutdown.GracefulShutdown$
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> stream.SessionStarter
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> stream.StreamFactory
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> stream.StreamFactory$
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> stream.StructutedStreaming
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> utils.Utils
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> utils.Utils$
+used names:
+412 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> App
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Main
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> StreamFactory
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> factory
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> stream
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> +
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> ?0
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Any
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Boolean
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Class
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Connection
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> DriverManager
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> ForeachWriter
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> JdbcSink
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Long
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Nothing
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Row
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Statement
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Throwable
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> close
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> connection
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> connection_=
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> createStatement
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> dao
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> driver
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> executeUpdate
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> forName
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> get
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> getConnection
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> java
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> lang
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> package
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> pwd
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> statement
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> statement_=
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> url
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> user
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> value
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> <repeated>
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Any
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> AnyRef
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Class
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Column
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Config
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> ConfigFactory
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> DataFrame
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> DataStreamReader
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> KafkaSource
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Logger
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Map
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> NestedSchema
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Nothing
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> SparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> StructType
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> T
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> alias
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> cast
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> cfg
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> col
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> com
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> config
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> format
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> from_json
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> functions
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> getClass
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> getLogger
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> getName
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> info
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> jsonOptions
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> kafka
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> load
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> log4j
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> logger
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> nschema
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> option
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> package
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> readStream
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> schema
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> select
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> sparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> typesafe
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> ->
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> <repeated>
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> A
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Any
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> AnyRef
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> ArrayType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> ArrowAssoc
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> B
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Boolean
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> BooleanType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> DataType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> IntegerType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Map
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> MapType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> NestedSchema
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Nothing
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> StringType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> StructType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> TimestampType
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Tuple2
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> add
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> apply
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> jsonOptions
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> nestTimestampFormat
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> nschema
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> schema
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> types
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> &&
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> A
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Any
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> B
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Boolean
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> CanBuildFrom
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Class
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Coll
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Config
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> File
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Function1
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> GracefulShutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> List
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Logger
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Long
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Nothing
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> SessionStarter
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> SparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> StreamingQuery
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> StreamingQueryManager
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> T
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> That
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> awaitAnyTermination
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> canBuildFrom
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> cfg
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> checkIntervalMillis
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> checkShutdownMarker
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> exists
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> getClass
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> getConfig
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> getLogger
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> getName
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> getString
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> immutable
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> info
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> io
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> isStopped
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> java
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> log4j
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> logger
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> map
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> package
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> query
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> shutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> sparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> stop
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> stopFlag
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> stopFlag_=
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> stream
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> streaming
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> streamingQueries
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> streams
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> toLong
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> unary_!
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> while$1
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> AnyRef
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Builder
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Config
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> ConfigFactory
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Long
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> SessionStarter
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> SparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> appName
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> builder
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> cfg
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> com
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> config
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> getConfig
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> getOrCreate
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> getString
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> load
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> master
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> stream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> typesafe
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> AnyRef
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> StreamFactory
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> StructutedStreaming
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> stream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> taskone
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> $
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> <repeated>
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> A
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> A1
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> A2
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> A3
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> A4
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Any
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Append
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Class
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Column
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> ColumnName
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Config
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> DataFrame
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> DataStreamWriter
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Double
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> ForeachWriter
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Function4
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> GracefulShutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> JavaUniverse
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> JdbcSink
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> KafkaSource
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> List
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Logger
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Nothing
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> OutputMode
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> ProcessingTime
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> RT
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Row
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> SessionStarter
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> SparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> StreamingQuery
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> StringContext
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> StringToColumn
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> StructutedStreaming
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> T
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Trigger
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> TypeTag
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Universe
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> UserDefinedFunction
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> Utils
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> apache
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> api
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> apply
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> camera
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> cfg
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> collection
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> console
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> dao
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> explode
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> expressions
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> foreach
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> format
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> from_json
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> functions
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getClass
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getConfig
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getDistance
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getLogger
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getName
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> getString
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> gracefulShutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> immutable
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> implicits
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> kafka
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> log4j
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> logger
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> materializeTypeTag
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> org
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> outputMode
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> package
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> query
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> query2
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> rawStream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> readStream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> reflect
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> runtime
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> select
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> shutdown
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> sightings
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> spark
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> sparkSession
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> sql
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> start
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> stream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> streaming
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> trigger
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> udf
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> universe
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> utils
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> writeStream
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> writer
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> *
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> +
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> -
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> /
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> <init>
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> AnyRef
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Double
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Int
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Invoker
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Math
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Object
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Predef
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> String
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Unit
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> Utils
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> a
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> atan2
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> c
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> cos
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> distance
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> invoked
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> java
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> lang
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> latDistance
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> lonDistance
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> p1
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> p2
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> r
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> scala
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> scoverage
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> sin
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> sqrt
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> t1
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> t2
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> toRadians
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> utils
+product stamps:
+16 items
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main$delayedInit$body.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/Main.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/dao/JdbcSink.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/kafka/KafkaSource$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/kafka/KafkaSource.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/schema/NestedSchema$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/schema/NestedSchema.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/shutdown/GracefulShutdown$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/shutdown/GracefulShutdown.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/SessionStarter.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StreamFactory$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StreamFactory.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/stream/StructutedStreaming.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/utils/Utils$.class -> lastModified(1570910996000)
+/opt/testspark/StreamTest2Spark/target/scala-2.12/classes/utils/Utils.class -> lastModified(1570910996000)
+source stamps:
+9 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> hash(a48f0b69fcef6bec07dad07998179a5e943d184e)
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> hash(31dadaafe3a99500bdf673c29e25f159fa0e2fe9)
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> hash(29a4588e23aa2e53b726e27ca9bf3a055e6043c3)
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> hash(98421c25334e552f22351eb667e405e2fc687799)
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> hash(95a4aa19bb561088e7e10146697374a48369b22a)
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> hash(5c5622dd640dd9341e6320e39f059de8a068bb7a)
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> hash(71b073dc9947988efb05f3b46d4dfc6b8863c668)
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> hash(33c999f9c4d28f4e2b6e1f6b71336eb8102709ac)
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> hash(3f14142a9bcb8c2cb847a5c0fd199c0ae0b288a5)
+binary stamps:
+8 items
+/home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar -> lastModified(1519222085000)
+/home/ali/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar -> lastModified(1540800028000)
+/home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar -> lastModified(1540799966000)
+/home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar -> lastModified(1524818407000)
+/home/ali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.6.jar -> lastModified(1524818182000)
+/home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar -> lastModified(1478455234000)
+/usr/java/jdk1.8.0_201/jre/lib/rt.jar -> lastModified(1544903112000)
+class names:
+8 items
+/home/ali/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar -> com.typesafe.config.Config
+/home/ali/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Logger
+/home/ali/.ivy2/cache/org.apache.spark/spark-catalyst_2.12/jars/spark-catalyst_2.12-2.4.0.jar -> org.apache.spark.sql.Row
+/home/ali/.ivy2/cache/org.apache.spark/spark-sql_2.12/jars/spark-sql_2.12-2.4.0.jar -> org.apache.spark.sql.ForeachWriter
+/home/ali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar -> scala.Int
+/home/ali/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.6.jar -> scala.reflect.api.JavaUniverse
+/home/ali/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.0.jar -> scoverage.Invoker$
+/usr/java/jdk1.8.0_201/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+9 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwP2HbZQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw+U9Sy3QABm5vdGlmeXNxAH4ADGKErN90AAR3YWl0c3EAfgAMYEojJnQADSRhc0luc3RhbmNlT2ZzcQB+AAyiAuv3dAAGZXF1YWxzc3EAfgAMi3ctCHQADGFzSW5zdGFuY2VPZnNxAH4ADPJ59Ax0AA5leGVjdXRpb25TdGFydHNxAH4ADEgm0ih0AAxzeW5jaHJvbml6ZWRzcQB+AAwS+s2ndAANJGlzSW5zdGFuY2VPZnNxAH4ADJ4tyrN0AARtYWluc3EAfgAMKbFqGXQACW5vdGlmeUFsbHNxAH4ADKiHcll0AAxpc0luc3RhbmNlT2ZzcQB+AAxFQDFhdAACPT1zcQB+AAwIMbipdAAFY2xvbmVzcQB+AAyeKdgldAAGJGluaXQkc3EAfgAM0891e3QABE1haW5zcQB+AAwp2qJXdAAIdG9TdHJpbmdzcQB+AAxBBRmwdAAEYXJnc3NxAH4ADCjdrE10AAIhPXNxAH4ADN+OaC50AAhnZXRDbGFzc3NxAH4ADNNLRrB0AAJuZXNxAH4ADP/Rprx0AAJlcXNxAH4ADPQdCB10AAtkZWxheWVkSW5pdHNxAH4ADHWHvIJ0AAIjI3NxAH4ADAzrfp90AAhmaW5hbGl6ZXNxAH4ADMtqIPZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AK3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAN0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWR0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AY3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGhzcQB+AGN1cQB+AEQAAAAAc3EAfgBjdXEAfgBEAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBKcQB+AFN1cQB+AFQAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgByeHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGd0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZ3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjHNxAH4AVgBxAH4AH3VxAH4AWAAAAABzcQB+AH90AARVbml0cQB+AIV1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgByeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBbdAAFUGxhaW5xAH4AL3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AgFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AZ3NxAH4Af3QABUFycmF5cQB+AIV1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Af3QABlN0cmluZ3NxAH4Ag3NxAH4AhnVxAH4AiQAAAANzcQB+AIt0AARqYXZhc3EAfgCLdAAEbGFuZ3EAfgCQc3EAfgBjdXEAfgCnAAAABHNxAH4Af3QAA0FwcHEAfgCFc3EAfgB/dAALRGVsYXllZEluaXRxAH4AhXNxAH4Af3QABk9iamVjdHEAfgCrc3EAfgB/dAADQW55cQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbcGXfSR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L29wdC90ZXN0c3BhcmsvU3RyZWFtVGVzdDJTcGFyay90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUpI8Lafzva+wH2tB5mBeaXpQ9GE4=
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw6KQl3wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTQflo3QABm5vdGlmeXNxAH4ADEh8K910AAR3YWl0c3EAfgAMuWZztHQADSRhc0luc3RhbmNlT2ZzcQB+AAz8rh38dAAGZXF1YWxzc3EAfgAM++bqo3QAB3Byb2Nlc3NzcQB+AAx7THMbdAAMYXNJbnN0YW5jZU9mc3EAfgAM6XZYiXQADHN5bmNocm9uaXplZHNxAH4ADPZfT8p0AA0kaXNJbnN0YW5jZU9mc3EAfgAMSmVKGXQACXN0YXRlbWVudHNxAH4ADLBxtnd0AARvcGVuc3EAfgAMb7YFqXQACW5vdGlmeUFsbHNxAH4ADLXof410AAxpc0luc3RhbmNlT2ZzcQB+AAyIWGQSdAAGPGluaXQ+c3EAfgAM4q4AynQABmRyaXZlcnNxAH4ADNKb8NN0AAI9PXNxAH4ADMVi9vd0AAVjbG9uZXNxAH4ADAq/yAl0AAh0b1N0cmluZ3NxAH4ADMpKE3t0AAhKZGJjU2lua3NxAH4ADHIeB550AAIhPXNxAH4ADKJhtOZ0AApjb25uZWN0aW9uc3EAfgAM/5TPSXQACGdldENsYXNzc3EAfgAM9uRbRnQABWNsb3Nlc3EAfgAMHQ+eeXQAAm5lc3EAfgAMEtBaenQAAmVxc3EAfgAMUyTPjXQAAiMjc3EAfgAM6gx2UnQACGZpbmFsaXplc3EAfgAMvQL+nHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADGRhby5KZGJjU2lua3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4Aa3NxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AEgAAAAAc3EAfgBmdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAVzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AanNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgB4eHEAfgBqdAANRm9yZWFjaFdyaXRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AanNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADb3Jnc3EAfgCGdAAGYXBhY2hlc3EAfgCGdAAFc3BhcmtzcQB+AIZ0AANzcWxzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ah3VxAH4AdQAAAAFzcQB+AHt0AANSb3dxAH4AgHNxAH4Ae3QADFNlcmlhbGl6YWJsZXNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZ0AAVzY2FsYXEAfgCRc3EAfgB7cQB+AJZzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGdAAEamF2YXNxAH4AhnQAAmlvcQB+AJFzcQB+AHt0AAZPYmplY3RzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+AKFzcQB+AIZ0AARsYW5ncQB+AJFzcQB+AHt0AANBbnlxAH4Al3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAA2Rhb3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbcGXfSR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L29wdC90ZXN0c3BhcmsvU3RyZWFtVGVzdDJTcGFyay90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUMdrar+OplQC99nPCniXxWfoOL+k=
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw2zfN1gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuLRj03QABm5vdGlmeXNxAH4ADL54Qvd0AAtLYWZrYVNvdXJjZXNxAH4ADNQtJuR0AAR3YWl0c3EAfgAMUt9DRnQACnJlYWRTdHJlYW1zcQB+AAx4Wtr+dAANJGFzSW5zdGFuY2VPZnNxAH4ADAi6t2N0AAZsb2dnZXJzcQB+AAzLCLw6dAAGZXF1YWxzc3EAfgAM4mTr23QADGFzSW5zdGFuY2VPZnNxAH4ADGZeXYt0AAxzeW5jaHJvbml6ZWRzcQB+AAy6DmPkdAANJGlzSW5zdGFuY2VPZnNxAH4ADADkl+x0AAlub3RpZnlBbGxzcQB+AAyaFcrTdAAMaXNJbnN0YW5jZU9mc3EAfgAMy+2BsHQAAj09c3EAfgAMXth053QABWNsb25lc3EAfgAMT+bBunQAA2NmZ3NxAH4ADOw0qtt0AAh0b1N0cmluZ3NxAH4ADDA0UhN0AAIhPXNxAH4ADLaL0tN0AAhnZXRDbGFzc3NxAH4ADJftJIJ0AAJuZXNxAH4ADH+zdnB0AAJlcXNxAH4ADKDyxPZ0AAIjI3NxAH4ADGcIx/h0AAhmaW5hbGl6ZXNxAH4ADCXHLKR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABFrYWZrYS5LYWZrYVNvdXJjZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGNzcQB+AF51cQB+AEAAAAAAc3EAfgBedXEAfgBAAAAAAHNxAH4AXnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ae3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfHNxAH4Ab3QAA0FueXNxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHt0AAVzY2FsYXEAfgCCdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFa2Fma2FzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAW3Bl30kdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOS9vcHQvdGVzdHNwYXJrL1N0cmVhbVRlc3QyU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCmkWI4jqi5TtybifKm/OgVeYEPD
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcRDNywAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwrVVuHnQABm5vdGlmeXNxAH4ADPvxDQx0AAR3YWl0c3EAfgAMBmFnQnQADSRhc0luc3RhbmNlT2ZzcQB+AAzFGnDddAAGZXF1YWxzc3EAfgAMghhpXnQADGFzSW5zdGFuY2VPZnNxAH4ADM3h8aJ0AAxzeW5jaHJvbml6ZWRzcQB+AAw2222/dAANJGlzSW5zdGFuY2VPZnNxAH4ADBeuajJ0AAlub3RpZnlBbGxzcQB+AAwYbilddAAMaXNJbnN0YW5jZU9mc3EAfgAMElLt1nQADE5lc3RlZFNjaGVtYXNxAH4ADEfWgXZ0AAI9PXNxAH4ADMkVP8p0AAVjbG9uZXNxAH4ADGcPvlN0AAduc2NoZW1hc3EAfgAMQl9e6XQAE25lc3RUaW1lc3RhbXBGb3JtYXRzcQB+AAwTSErsdAALanNvbk9wdGlvbnNzcQB+AAxObhiQdAAIdG9TdHJpbmdzcQB+AAxwjfiudAACIT1zcQB+AAyXSzbmdAAIZ2V0Q2xhc3NzcQB+AAyk3WsudAACbmVzcQB+AAxcZN56dAACZXFzcQB+AAw2oCa5dAACIyNzcQB+AAx9iFtvdAAIZmluYWxpemVzcQB+AAy6XqFMdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAATc2NoZW1hLk5lc3RlZFNjaGVtYXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGNzcQB+AF51cQB+AEAAAAAAc3EAfgBedXEAfgBAAAAAAHNxAH4AXnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ae3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfHNxAH4Ab3QAA0FueXNxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHt0AAVzY2FsYXEAfgCCdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc2NoZW1hc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFtwZd9JHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvb3B0L3Rlc3RzcGFyay9TdHJlYW1UZXN0MlNwYXJrL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSYQhwlM05VLyI1HrZn5AXi/Gh3mQ==
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwfB5unwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHC+gXrjdAAMc3BhcmtTZXNzaW9udXEAfgAJAAAAGnNxAH4AC3SXStB0AAZub3RpZnlzcQB+AAvNeL/TdAAEd2FpdHNxAH4AC+EB0P90AA0kYXNJbnN0YW5jZU9mc3EAfgALUWxL5HQABmxvZ2dlcnNxAH4AC+loLBx0AAZlcXVhbHNzcQB+AAvu74HHdAAMYXNJbnN0YW5jZU9mc3EAfgALCcIuRXQADHN5bmNocm9uaXplZHNxAH4AC97tbfd0AAhzdG9wRmxhZ3NxAH4AC3tlJqZ0AA0kaXNJbnN0YW5jZU9mc3EAfgAL1EJasHQAEEdyYWNlZnVsU2h1dGRvd25zcQB+AAvUHbtrdAAJbm90aWZ5QWxsc3EAfgALZ6uQ+nQADGlzSW5zdGFuY2VPZnNxAH4AC48ngKN0AAI9PXNxAH4AC49LEPF0ABBncmFjZWZ1bFNodXRkb3duc3EAfgALoLkyMHQABWNsb25lc3EAfgALrpM0gHQAE2NoZWNrU2h1dGRvd25NYXJrZXJzcQB+AAsiZ6tPdAADY2Znc3EAfgALCxRe3nQABiRpbml0JHNxAH4AC2Topxp0AAh0b1N0cmluZ3NxAH4ACyVaFA10AAIhPXNxAH4ACwiZpBN0AAhnZXRDbGFzc3NxAH4AC78vUId0AAJuZXNxAH4AC9pf3Jt0AAJlcXNxAH4AC5Hu43l0AAIjI3NxAH4AC9WxDVl0AAhmaW5hbGl6ZXNxAH4ACy04y7d0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABlzaHV0ZG93bi5HcmFjZWZ1bFNodXRkb3dudXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4Aa3NxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AEgAAAAAc3EAfgBmdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBqdAAOU2Vzc2lvblN0YXJ0ZXJzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABnN0cmVhbXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCEc3EAfgB3dAAGT2JqZWN0c3EAfgB7c3EAfgB+dXEAfgCBAAAAA3NxAH4Ag3QABGphdmFzcQB+AIN0AARsYW5ncQB+AIhzcQB+AHd0AANBbnlzcQB+AHtzcQB+AH51cQB+AIEAAAACc3EAfgCDdAAFc2NhbGFxAH4AiHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQACHNodXRkb3duc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFtwZd9JHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADkvb3B0L3Rlc3RzcGFyay9TdHJlYW1UZXN0MlNwYXJrL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSVpKoZu1YQiOfhAUZpc3Skg2myKg==
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuJ+t8AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCSseh4dAAMc3BhcmtTZXNzaW9udXEAfgAJAAAAFnNxAH4ACx4whAl0AAZub3RpZnlzcQB+AAv0QhU2dAAEd2FpdHNxAH4AC12kdkp0AA0kYXNJbnN0YW5jZU9mc3EAfgALl1rLWHQABmVxdWFsc3NxAH4AC+JESyJ0AAxhc0luc3RhbmNlT2ZzcQB+AAsSwSlpdAAMc3luY2hyb25pemVkc3EAfgALAiUY7XQADSRpc0luc3RhbmNlT2ZzcQB+AAsR5sQzdAAJbm90aWZ5QWxsc3EAfgALXjRX2HQADGlzSW5zdGFuY2VPZnNxAH4ACzAIzN50AAI9PXNxAH4AC3BZYj90AAVjbG9uZXNxAH4AC/1ZPrZ0AANjZmdzcQB+AAv5GW7HdAAGJGluaXQkc3EAfgALNilU1HQACHRvU3RyaW5nc3EAfgALmSUP5XQADlNlc3Npb25TdGFydGVyc3EAfgAL9upyu3QAAiE9c3EAfgALTwu5zXQACGdldENsYXNzc3EAfgALpp1OCXQAAm5lc3EAfgALOCXcF3QAAmVxc3EAfgALhs+2MXQAAiMjc3EAfgAL2obuJHQACGZpbmFsaXplc3EAfgALfoxYFXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQAFXN0cmVhbS5TZXNzaW9uU3RhcnRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AY3NxAH4AXnVxAH4AQAAAAABzcQB+AF51cQB+AEAAAAAAc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB7dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB8c3EAfgBvdAADQW55c3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3QABXNjYWxhcQB+AIJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAZzdHJlYW1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAW3Bl30kdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOS9vcHQvdGVzdHNwYXJrL1N0cmVhbVRlc3QyU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFxWIt1kDdk0HmMg458FneigaLt6
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcBLpkgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwOonMfXQABm5vdGlmeXNxAH4ADJ8VLdV0AAR3YWl0c3EAfgAMNJYBtHQADSRhc0luc3RhbmNlT2ZzcQB+AAzHKbdKdAAGZXF1YWxzc3EAfgAMRMK1w3QADGFzSW5zdGFuY2VPZnNxAH4ADKabuDB0AAxzeW5jaHJvbml6ZWRzcQB+AAzo084ZdAANJGlzSW5zdGFuY2VPZnNxAH4ADJnq8CZ0AAlub3RpZnlBbGxzcQB+AAx5ooIkdAAMaXNJbnN0YW5jZU9mc3EAfgAMmszziXQAB2ZhY3RvcnlzcQB+AAwJaAn/dAACPT1zcQB+AAzG+cr9dAAFY2xvbmVzcQB+AAzuS+lUdAAIdG9TdHJpbmdzcQB+AAzUUq2fdAACIT1zcQB+AAysPTaKdAANU3RyZWFtRmFjdG9yeXNxAH4ADFKrOoV0AAhnZXRDbGFzc3NxAH4ADNESkap0AAJuZXNxAH4ADO9z4Fl0AAJlcXNxAH4ADESAIcN0AAIjI3NxAH4ADDEL5rp0AAhmaW5hbGl6ZXNxAH4ADL+eM010AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABRzdHJlYW0uU3RyZWFtRmFjdG9yeXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF9zcQB+AFp1cQB+ADwAAAAAc3EAfgBadXEAfgA8AAAAAHNxAH4AWnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ad3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHNxAH4Aa3QAA0FueXNxAH4Ab3NxAH4AcnVxAH4AdQAAAAJzcQB+AHd0AAVzY2FsYXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAGc3RyZWFtc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFtwZd9JHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvb3B0L3Rlc3RzcGFyay9TdHJlYW1UZXN0MlNwYXJrL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRxsHPcmUeYjvsF87RtTfxriGPGaA==
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcm2OWQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBJtrJVdAAMc3BhcmtTZXNzaW9udXEAfgAJAAAAGXNxAH4AC/bF8S90AAZub3RpZnlzcQB+AAsPI41WdAAEd2FpdHNxAH4ACwhvhMR0AA0kYXNJbnN0YW5jZU9mc3EAfgALdn1z3nQABmxvZ2dlcnNxAH4AC48GGVp0AAZlcXVhbHNzcQB+AAurB5SqdAATU3RydWN0dXRlZFN0cmVhbWluZ3NxAH4ACw34idV0AAxhc0luc3RhbmNlT2ZzcQB+AAu0YvE4dAAMc3luY2hyb25pemVkc3EAfgALCrJJ33QADSRpc0luc3RhbmNlT2ZzcQB+AAuxIzrfdAAJbm90aWZ5QWxsc3EAfgALGKKTN3QAB3Rhc2tvbmVzcQB+AAuH64f1dAAMaXNJbnN0YW5jZU9mc3EAfgALAVSh7XQABjxpbml0PnNxAH4AC6qpCAp0AAI9PXNxAH4AC7lzOiZ0AAVjbG9uZXNxAH4AC4KuDgV0AANjZmdzcQB+AAtRYJ6QdAAGJGluaXQkc3EAfgALzxvvZnQACHRvU3RyaW5nc3EAfgALp8lWrnQAAiE9c3EAfgALVBVEdXQACGdldENsYXNzc3EAfgALWWkZz3QAAm5lc3EAfgAL6EfhbXQAAmVxc3EAfgALMCsxe3QAAiMjc3EAfgALLzoW4HQACGZpbmFsaXplc3EAfgALy4uUjXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AS3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGnN0cmVhbS5TdHJ1Y3R1dGVkU3RyZWFtaW5ndXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBpc3EAfgBkdXEAfgBGAAAAAHNxAH4AZHVxAH4ARgAAAABzcQB+AGR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGh0AA5TZXNzaW9uU3RhcnRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAGc3RyZWFtc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIJzcQB+AHV0AAZPYmplY3RzcQB+AHlzcQB+AHx1cQB+AH8AAAADc3EAfgCBdAAEamF2YXNxAH4AgXQABGxhbmdxAH4AhnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCGdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAGc3RyZWFtc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFtwZd9JHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADkvb3B0L3Rlc3RzcGFyay9TdHJlYW1UZXN0MlNwYXJrL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQzyZn5xNKPTituH2txM264ECcJrA==
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwK0fROQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuTVg6HQABm5vdGlmeXNxAH4ADO3LetJ0AAR3YWl0c3EAfgAMNvv/1XQADSRhc0luc3RhbmNlT2ZzcQB+AAyyuEGXdAAGZXF1YWxzc3EAfgAMqNEapXQADGFzSW5zdGFuY2VPZnNxAH4ADDRkb0B0AAxzeW5jaHJvbml6ZWRzcQB+AAyW+bqMdAANJGlzSW5zdGFuY2VPZnNxAH4ADPLMxAt0AAlub3RpZnlBbGxzcQB+AAwNyJumdAAMaXNJbnN0YW5jZU9mc3EAfgAMnxPtCHQAAj09c3EAfgAMsWWO63QABWNsb25lc3EAfgAMimhm1HQACHRvU3RyaW5nc3EAfgAMXKI4n3QABVV0aWxzc3EAfgAMLG+buHQAAiE9c3EAfgAM7p0ejHQACGdldENsYXNzc3EAfgAMG7TGCHQAC2dldERpc3RhbmNlc3EAfgAMYO9qjXQAAm5lc3EAfgAMehiTOXQAAmVxc3EAfgAMuhSB83QAAiMjc3EAfgAMINbXpnQACGZpbmFsaXplc3EAfgAM0M2sXnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAC3V0aWxzLlV0aWxzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBac3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AX3NxAH4AWnVxAH4APAAAAABzcQB+AFp1cQB+ADwAAAAAc3EAfgBadXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBedAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBec3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB3dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB4c3EAfgBrdAADQW55c3EAfgBvc3EAfgBydXEAfgB1AAAAAnNxAH4Ad3QABXNjYWxhcQB+AH51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV1dGlsc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbcGXfSR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L29wdC90ZXN0c3BhcmsvU3RyZWFtVGVzdDJTcGFyay90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUPxQUKpvLjCy4R6XA/RmcCuCyiKU=
+external apis:
+0 items
+source infos:
+9 items
+/opt/testspark/StreamTest2Spark/src/main/scala/Main.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/dao/JdbcSink.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/kafka/KafkaSource.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/schema/NestedSchema.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/shutdown/GracefulShutdown.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/SessionStarter.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StreamFactory.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/stream/StructutedStreaming.scala -> 
+AAAAAAAAAAA=
+/opt/testspark/StreamTest2Spark/src/main/scala/utils/Utils.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbcGWWVF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9vcHQvdGVzdHNwYXJrL1N0cmVhbVRlc3QyU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABbcGXfSR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9vcHQvdGVzdHNwYXJrL1N0cmVhbVRlc3QyU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

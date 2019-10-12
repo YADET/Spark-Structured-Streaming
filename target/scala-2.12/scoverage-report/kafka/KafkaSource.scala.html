@@ -1,0 +1,345 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          kafka/KafkaSource.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package kafka
+</span>2 <span style=''>
+</span>3 <span style=''>import com.typesafe.config.ConfigFactory
+</span>4 <span style=''>import org.apache.log4j.Logger
+</span>5 <span style=''>import org.apache.spark.sql.SparkSession
+</span>6 <span style=''>import org.apache.spark.sql.functions._
+</span>7 <span style=''>import schema.NestedSchema._
+</span>8 <span style=''>
+</span>9 <span style=''>object KafkaSource{
+</span>10 <span style=''>
+</span>11 <span style=''>  val logger = </span><span style='background: #F0ADAD'>Logger.getLogger(getClass.getName)</span><span style=''>
+</span>12 <span style=''>  val cfg = </span><span style='background: #F0ADAD'>ConfigFactory.load(&quot;config.conf&quot;)</span><span style=''>
+</span>13 <span style=''>
+</span>14 <span style=''>  def readStream()(implicit sparkSession: SparkSession) = {
+</span>15 <span style=''>
+</span>16 <span style=''>    </span><span style='background: #F0ADAD'>logger.info(&quot;Reading from Kafka&quot;)</span><span style=''>
+</span>17 <span style=''>
+</span>18 <span style=''>    /** reads data from kafka topic. */
+</span>19 <span style=''>    </span><span style='background: #F0ADAD'>sparkSession
+</span>20 <span style=''></span><span style='background: #F0ADAD'>      .readStream
+</span>21 <span style=''></span><span style='background: #F0ADAD'>      .format(&quot;kafka&quot;)
+</span>22 <span style=''></span><span style='background: #F0ADAD'>      .option(&quot;kafka.bootstrap.servers&quot;, &quot;localhost:9092&quot;)
+</span>23 <span style=''></span><span style='background: #F0ADAD'>      .option(&quot;subscribe&quot;, &quot;topic1&quot;)
+</span>24 <span style=''></span><span style='background: #F0ADAD'>      .option(&quot;startingOffsets&quot;, &quot;latest&quot;)
+</span>25 <span style=''></span><span style='background: #F0ADAD'>      .load()
+</span>26 <span style=''></span><span style='background: #F0ADAD'>      .select(from_json(col(&quot;value&quot;).cast(&quot;string&quot;), nschema, jsonOptions).alias(&quot;parsed_value&quot;))</span><span style=''>
+</span>27 <span style=''>
+</span>28 <span style=''>
+</span>29 <span style=''>  }
+</span>30 <span style=''>
+</span>31 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          251
+          -
+          267
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Class.getName
+        </td>
+        <td style="background: #F0ADAD">
+          KafkaSource.this.getClass().getName()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          234
+          -
+          268
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Logger.getLogger
+        </td>
+        <td style="background: #F0ADAD">
+          org.apache.log4j.Logger.getLogger(KafkaSource.this.getClass().getName())
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          281
+          -
+          314
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.typesafe.config.ConfigFactory.load
+        </td>
+        <td style="background: #F0ADAD">
+          com.typesafe.config.ConfigFactory.load(&quot;config.conf&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          381
+          -
+          414
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          KafkaSource.this.logger.info(&quot;Reading from Kafka&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          505
+          -
+          512
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;kafka&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          555
+          -
+          571
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;localhost:9092&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          528
+          -
+          553
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;kafka.bootstrap.servers&quot;
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          600
+          -
+          608
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;topic1&quot;
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          587
+          -
+          598
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;subscribe&quot;
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          624
+          -
+          641
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;startingOffsets&quot;
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          643
+          -
+          651
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;latest&quot;
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          460
+          -
+          764
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.spark.sql.Dataset.select
+        </td>
+        <td style="background: #F0ADAD">
+          sparkSession.readStream.format(&quot;kafka&quot;).option(&quot;kafka.bootstrap.servers&quot;, &quot;localhost:9092&quot;).option(&quot;subscribe&quot;, &quot;topic1&quot;).option(&quot;startingOffsets&quot;, &quot;latest&quot;).load().select(org.apache.spark.sql.functions.from_json(org.apache.spark.sql.functions.col(&quot;value&quot;).cast(&quot;string&quot;), schema.NestedSchema.nschema, schema.NestedSchema.jsonOptions).alias(&quot;parsed_value&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          681
+          -
+          763
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.spark.sql.Column.alias
+        </td>
+        <td style="background: #F0ADAD">
+          org.apache.spark.sql.functions.from_json(org.apache.spark.sql.functions.col(&quot;value&quot;).cast(&quot;string&quot;), schema.NestedSchema.nschema, schema.NestedSchema.jsonOptions).alias(&quot;parsed_value&quot;)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
